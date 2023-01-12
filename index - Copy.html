@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating Login UI</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="title">
+      <img src="images/Union_logo.png" alt="" />
+      <p id="heading">Apprigator</p>
+    </div>
+    <div class="middle_part">
+      <div class="square">
+        <img src="images/background_img.png" alt="" id="back" />
+        <img src="images/Rocky_img.png" alt="" id="rockey_img" />
+        <p id="rokey_name">Welcome back, <span>Robert</span></p>
+      </div>
+
+      <div class="input_data">
+        <p id="data">Email</p>
+        <input type="email" placeholder="pavanbadgujar2006@gmail.com" />
+        <p id="data">Password</p>
+        <input type="text" placeholder="*************" />
+        <ion-icon name="eye-off-outline"></ion-icon>
+
+        <div class="horizantal_part">
+          <div class="sub_rem">
+            <input id="checkbox" type="checkbox" />
+            <p id="small">Remember</p>
+          </div>
+          <div class="forgot">
+            <a href="">Forget Password</a>
+          </div>
+        </div>
+        <button id="btn-1">Login</button>
+        <div class="center">I’m not Robert</div>
+        <div class="last_Part">
+          <button id="btn-2">Login as new user</button>
+          <button id="btn-2">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
